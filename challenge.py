@@ -15,7 +15,8 @@ logger = logging.getLogger(__name__)
 DATA_DIR = Path("./challenge")  # Directory containing parquet files
 VALUE_COL = "attribute_value_local"  # Column to pivot on
 SPARSE_THRESHOLD = 0.60  # Thredshold for dropping columns with missing values over 60%
-SECTION_NAME_MAPPING = {'de': 'Allgemein', 'en': 'General'}  # Section name by local language
+SECTION_NAME_MAPPING = {'de': 'Allgemein', 
+                        'en': 'General'}  # Section name by local language
 
 # Selected attribute_keys to include in product_detail
 selected_cols = [
