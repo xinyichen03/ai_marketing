@@ -7,12 +7,6 @@ import math
 import re
 
 # Set up logging
-if not logging.getLogger().handlers:
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s | %(levelname)-8s | %(message)s",
-        datefmt="%H:%M:%S"
-    )
 logger = logging.getLogger(__name__)
 
 # ------------------------------
