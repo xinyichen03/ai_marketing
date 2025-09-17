@@ -1,0 +1,13 @@
+__pycache__/
+.venv/
+.idea/
+.env
+
+# rules
+code_standard.md
+general_rule.md
+
+# Data
+challenge/
+product_detail.csv
+
